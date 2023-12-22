@@ -36,8 +36,11 @@ The advantages of using a multi-class classifier include a simplified training p
 
 ## For each classifier, provide a brief description of the classifier and its general advantages and disadvantages.
 For KNN, it can handle classification and regression problems and is also simple to implement and fairly easy to interpret. However, it is sensitive to how I choose the distance metrics, which will be seen in more hyperparameter tuning.
+
 For ANN, it can compute more complex problems with different relationships between features. It can also handle unstructured data fairly well. However, it is prone to overfit when the model gets too complicated, therefore also making it hard to interpret. Also, the most obvious downside is it takes the longest to train.
+
 For SVM, it can handle both linear and non-linear data because of its nature of projecting data into higher dimensions to find solutions. However, choosing the right kernel may be tricky and it is sensitive to the choice of hyperparameters.
+
 For Random Forest, it is easy to interpret when having a small dataset, and it is relatively less prone to overfitting. However, when the dataset gets larger, it takes a pretty long time to train and is hard to interpret, I have tried to print out the first few forests, but it was indeed hard to comprehend.
 
 ## What model would I choose for this problem and why? How did dimension reduction affect the accuracy and/or run times of the different classifiers? What would I do differently if I were given this same task for a new dataset? Include at least one additional topic of discussion.
