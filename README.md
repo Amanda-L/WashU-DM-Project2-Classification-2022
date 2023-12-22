@@ -9,7 +9,7 @@ The project used a dataset from the Letter Recognition dataset in the UCI reposi
 
 In the problem, I picked from different models (1. k-nearest neighbors, 2. Decision tree, 3. Random Forest, 4. SVM, 5. Artificial Neural Network, and 6. Naïve Bayes Classifier) to do binary classification. For each model, I chose a hyperparameter to tune using 5-fold cross-validation. 
 
-I compare different models in terms of their performance. By looking at the appearance of letters, I have a pre-sense of how certain letters are harder to classify. For instance, D and Q would make models harder to classify. I also tried clustering after dimension reduction, to see whether reducing features dimension impacts the results.
+I compared different models in terms of their performance. By looking at the appearance of letters, I have a pre-sense of how certain letters are harder to classify. For instance, D and Q would make models harder to classify. I also tried clustering after dimension reduction, to see whether reducing features dimension impacts the results.
 
 
 ## SP2023 Project 2 Code .ipynb and Project 2 Final Report.pdf: 
