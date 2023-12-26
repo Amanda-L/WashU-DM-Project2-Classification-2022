@@ -1,4 +1,4 @@
-# Description
+# Data Mining: Letter Classification
 
 The project used a dataset from the Letter Recognition dataset in the UCI repository. It has 20,000 samples of 26 alphabets with each alphabet having 16 features. 
 
